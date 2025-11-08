@@ -1,7 +1,9 @@
 # 🎨 Scalineous: AI-Powered Art Generation & Web3 Creator Marketplace
 
 *Project URL:* [LINK TO YOUR DEVPOST/GITHUB REPO]
+
 *Video Demo:* [LINK TO YOUR YOUTUBE/VIMEO DEMO]
+
 *Hackathon:* Built for Hack CBS 8.0
 
 ## 1. The Problem: The Creative Bottleneck
@@ -15,7 +17,7 @@ How can we empower everyday users to bring their most imaginative visions to lif
 *Scalineous* is a web-based creative suite and a two-sided marketplace that bridges the gap between imagination and creation.
 
 * *For Creators:* An intuitive canvas where users sketch ideas. Our AI, powered by *Gemini*, transforms those sketches into stunning artwork and animations.
-* *For Artists & Developers:* A decentralized Web3 marketplace on *Solana* where artists can:
+* For Artists & Developers: A decentralized Web3 marketplace on *Solana* where artists can:
     * *Sell Assets:* Mint and sell their custom "style filters" or "animation effects" as NFTs.
     * *Get Hired:* Take on gig work from creators who need custom art, with payments handled on-chain.
 
@@ -23,24 +25,24 @@ How can we empower everyday users to bring their most imaginative visions to lif
 
 [All APIs Tested by Qyrus qAPI]
 
-* *Frontend*: A responsive Next.js application with React and Tailwind CSS.
-* *Backend: Hosted on **AWS*, our backend orchestrates all AI and database logic.
-* *Authentication: Secured by **Auth0* for safe, seamless user login.
-* *Database: **MongoDB* stores all user data, project files, and non-chain marketplace metadata.
-* *Blockchain: We use the **Solana* network for our custom smart contracts, handling all NFT minting and marketplace payments.
-* *API Testing: All 20+ endpoints are rigorously tested using the **Qyrus qAPI* codeless testing platform to ensure 100% reliability.
+* Frontend: A responsive Next.js application with React and Tailwind CSS.
+* Backend: Hosted on *AWS*, our backend orchestrates all AI and database logic.
+* Authentication: Secured by **Auth0* for safe, seamless user login.
+* Database: *MongoDB* stores all user data, project files, and non-chain marketplace metadata.
+* Blockchain: We use the *Solana* network for our custom smart contracts, handling all NFT minting and marketplace payments.
+* API Testing: All 20+ endpoints are rigorously tested using the **Qyrus qAPI* codeless testing platform to ensure 100% reliability.
 
 ## 4. Key Features
 
 * *Intuitive Drawing Toolkit*: A fully-featured canvas (paintbrush, eraser, color picker) to capture your ideas. You can import existing images or export your final creations.
-* *Agentic AI Art Generation: An AI flow that intelligently interprets user sketches and prompts (using **Gemini*) to generate high-quality images and animations. It operates in two modes:
+* *Agentic AI Art Generation:* An AI flow that intelligently interprets user sketches and prompts (using **Gemini*) to generate high-quality images and animations. It operates in two modes:
     * *AI Styles*: Select from curated styles (Cyberpunk, Anime, Fantasy) to instantly transform your sketch.
     * *Dream-Mode*: Describe a unique vision with a custom text prompt, giving you complete control.
-* *AI-Powered Prompt Refinement: To enhance creative control, we have integrated **OpenRouter*, which gives us access to a 120-billion parameter open-source AI model. This dedicated agent takes a user's simple idea and fleshes it out into a more descriptive and evocative prompt, maximizing the quality of the generated art.
-* *Decentralized Creator Marketplace: A dual-function marketplace built on **Solana*:
+* *AI-Powered Prompt Refinement:* To enhance creative control, we have integrated **OpenRouter*, which gives us access to a 120-billion parameter open-source AI model. This dedicated agent takes a user's simple idea and fleshes it out into a more descriptive and evocative prompt, maximizing the quality of the generated art.
+* *Decentralized Creator Marketplace:* A dual-function marketplace built on **Solana*:
     * *Asset Marketplace*: Artists can mint their custom "style effects" as NFTs. Creators can buy these NFTs to use them in the AI studio.
     * *Gig Marketplace*: Clients can post design jobs with budgets specified in SOL or USDC. Our smart contract handles designer registration and secure payments.
-    * *Wallet Integration: Securely connect your **MetaMask* or Phantom wallet to interact with the marketplace.
+    * *Wallet Integration*: Securely connect your **MetaMask* or Phantom wallet to interact with the marketplace.
 
 ## 5. Tech Stack & Hack CBS 8.0 Tracks
 
