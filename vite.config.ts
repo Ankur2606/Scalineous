@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
-    port: 8080,
+    port: 7003,
     // Allow Render domain host header
     allowedHosts: ["scalinox-9cwd.onrender.com"],
   },
